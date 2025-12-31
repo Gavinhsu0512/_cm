@@ -1,4 +1,4 @@
-# [AI對話](https://chatgpt.com/c/6954c1d1-9ea0-8320-aad2-12907d49a139)
+# [AI對話](https://chatgpt.com/c/6954c27a-e820-8321-b4dd-3e342d342a44)
 # 一般 n 次多項式求根（root(c)）
 
 ## 一、目標
