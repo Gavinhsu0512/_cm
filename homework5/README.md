@@ -1,4 +1,4 @@
-# [AI對話](https://chatgpt.com/c/6954c27a-e820-8321-b4dd-3e342d342a44)
+# [AI對話](https://chatgpt.com/c/6954c258-6fac-8322-87ea-40d3be5b07e1)
 # Finite Field（有限體）實作說明
 
 實作一個 **質數階有限體** \( \mathbb{F}_p \)（又稱 GF(p)），並符合以下需求：
