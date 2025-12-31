@@ -63,14 +63,16 @@ def newton_method(f, df, x0, tol=1e-8, max_iter=100):
         fx = f(x)
         if abs(fx) < tol:
             return x, i + 1
-
-        dfx = df(x)
-        if dfx == 0:
-            raise ZeroDivisionError("導數為 0，無法進行牛頓更新")
-
-        x = x - fx / dfx
-
+        x = x - fx / df(x)
     raise ValueError("未在指定迭代次數內收斂")
+
+    f = lambda x: x**2 - 2
+    df = lambda x: 2*x
+
+    root, iterations = newton_method(f, df, x0=1.0)
+    print("近似根 =", root)
+    print("迭代次數 =", iterations)
+    print("驗證 f(root) =", f(root))
 
 5. 範例：求 sqrt(2)（或 √2）
 
